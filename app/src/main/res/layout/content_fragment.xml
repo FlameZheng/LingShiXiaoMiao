@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <com.atguigu.lingshixiaomiao.view.NoscrollViewPager
+        android:id="@+id/vp_content_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+
+    <RadioGroup
+        android:id="@+id/rg_content_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_home"
+            style="@style/bottm_style"
+            android:drawableTop="@drawable/rb_home_selector"
+            android:text="首页"
+
+            />
+
+
+        <RadioButton
+            android:id="@+id/rb_sale"
+            style="@style/bottm_style"
+            android:drawableTop="@drawable/rb_sale_selector"
+            android:text="特卖"
+            />
+
+        <RadioButton
+            android:id="@+id/rb_subject"
+            style="@style/bottm_style"
+            android:drawableTop="@drawable/rb_subject_selector"
+            android:text="专题"
+            />
+
+        <RadioButton
+            android:id="@+id/rb_mine"
+            style="@style/bottm_style"
+            android:drawableTop="@drawable/rb_mine_selector"
+            android:text="我的小喵"
+
+            />
+    </RadioGroup>
+
+</LinearLayout>
